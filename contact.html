@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: white;
+
+      }
+      * {box-sizing: border-box;}
+      h1 {
+        font-family: courier;
+        color: black;
+      }
+      p {
+        color: black;
+        font-family: timesnewroman;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111111;
+      }
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        }
+
+      input[type=submit] {
+        background-color: rgb(192, 192, 192);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #9b9b9b;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+   <h1>Jonathan Peng</h1>
+
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About Me</a></li>
+   </ul>
+
+   <h2>Contact Form</h2>
+   <div class="container">
+        <form action="/action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" placeholder="First name..">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" placeholder="Last name..">
+            <br>
+            Message:<br>
+            <textarea id = "message" name="message" placeholder="Type here.." style="height:200px"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form> 
+  </div>
+
+   <p><a href="mailto:jonathan.peng.dfw@gmail.com">Email Me!</a></p>
+
+  </body>
+</html>
